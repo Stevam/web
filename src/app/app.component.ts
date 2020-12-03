@@ -15,7 +15,6 @@ export class AppComponent {
   lista = [];
 
   click() {
-    console.log("passou aqui");
     this.list().subscribe((data: []) => { this.lista = data });
   }
 
